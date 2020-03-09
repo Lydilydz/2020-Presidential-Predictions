@@ -75,7 +75,7 @@ section .section-title {
 .frontside .card,
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+    color: black !important;
 }
 
 .frontside .card .card-body img {
@@ -251,4 +251,14 @@ section .section-title {
 
 .logo {
     margin-top: 10px
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.green {
+    color: seagreen;
+    font-weight: bold;
 }
