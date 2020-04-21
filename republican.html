@@ -1,122 +1,196 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
-
-    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" media="screen" />
+    <title>Woo Woo Analytics</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="assets/font/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/font/font.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.bxslider.css" media="screen" />
 </head>
-<!-- Team -->
 
 <body>
-    <div>
-        <div class="main_menu_area">
-            <ul id="nav">
-                <li><a href="index.html">Astro Predictions</a>
+    <div class="body_wrapper">
+        <div class="center">
+            <div class="header_area">
+                <div class="logo floatleft">
+                    <a href="index.html"><img src="images/LOGOTTR.png" width="150px" height="80px" alt="" /></a>
+                </div>
+
+                <div class="social_plus_search floatright">
+
+                    <div class="social">
+                    </div>
+                    <div class="search">
+                        <form action="#" method="post" id="search_form">
+                            <input type="text" value="Search news" id="s" />
+                            <input type="submit" id="searchform" value="search" />
+                            <input type="hidden" value="post" name="post_type" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="main_menu_area">
+                <ul id="nav">
+                    <li><a href="index.html">Astro Predictions</a>
+                    </li>
+                    <li><a href="predictions.html">Predictions</a></li>
+                    <li><a href="candidates.html">Candidates</a>
+                        <ul>
+                            <li><a href="democrat.html">Democrats</a></li>
+                            <li><a href="republican.html">Republicans</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="past.html">Past</a>
+                        <ul>
+
+                            <li><a href="present.html">Present</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./future.html">Future</a></li>
+                    </li>
+                </ul>
+            </div>
+            <div class="slider_area">
+
+            </div>
+            <div class="content_area">
+                <section id="team" class="pb-5">
+                    <div class="container">
+                        <h5 class="section-title h1">Republicans</h5>
+                        <div class="row">
+                            <!-- Team member -->
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <a href="DonaldTrump.html">
+                                                    <p><img class=" img-fluid" src="images/donald Trump.jpg" alt="card image"></p>
+                                                </a>
+                                                <h4 class="card-title" style="color: black;">Donald Trump</h4>
+                                                <p class="card-text">This is basic card with image on top, title, description and button.
+                                                </p>
+                                                <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Team member -->
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <a href="JoeWalsh.html">
+                                                    <p><img class=" img-fluid" src="images/joe walsh.jpg" alt="card image"></p>
+                                                </a>
+                                                <h4 class="card-title">Joe Walsh</h4>
+                                                <p class="card-text">This is basic card with image on top, title, description and button.
+                                                </p>
+                                                <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Team member -->
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <a href="BillWeld.html">
+                                                    <p><img class=" img-fluid" src="images/Joe Weld.jpg" alt="card image"></p>
+                                                </a>
+                                                <h4 class="card-title">Bill Weld</h4>
+                                                <p class="card-text">This is basic card with image on top, title, description and button.
+                                                </p>
+                                                <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Team member -->
+
+
+
+
+                        </div>
+                    </div>
+                </section>
+
+                <a class="popular_more" href="#">more</a> </div>
+
+        </div>
+    </div>
+
+    </div>
+    <div class="footer_top_area">
+        <div class="top_menu floatleft">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <ul>
+                <li>
+                    <a href="#" class="twitter"></a>
                 </li>
-                <li><a href="#">Predictions</a></li>
-                <li><a href="#">Candidates</a>
-                    <ul>
-                        <li><a href="democrat.html">Democrates</a></li>
-                        <li><a href="republican.html">Republicans</a></li>
-                    </ul>
+                <li>
+                    <a href="#" class="facebook"></a>
                 </li>
-                <li><a href="#">Past</a>
-                    <ul>
-                        <li><a href="#">Single item</a>
-                            <ul>
-                                <li><a href="#">Single item</a></li>
-                                <li><a href="#">Single item</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Present</a></li>
-                    </ul>
-                </li>
-                <li><a href="./future.html">Future</a></li>
+                <li>
+                    <a href="#" class="feed"></a>
                 </li>
             </ul>
         </div>
     </div>
-    <section id="team" class="pb-5">
-        <div class="container" style="background-color: red;">
-            <h5 class="section-title h1">Republicans</h5>
-            <div class="row">
-                <!-- Team member -->
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <a href="DonaldTrump.html">
-                                        <p><img class=" img-fluid" src="images/donald Trump.jpg" alt="card image"></p>
-                                    </a>
-                                    <h4 class="card-title" style="color: black;">Donald Trump</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description and button.
-                                    </p>
-                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="footer_bottom_area">
 
-                <!-- Team member -->
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <a href="JoeWalsh.html">
-                                        <p><img class=" img-fluid" src="images/joe walsh.jpg" alt="card image"></p>
-                                    </a>
-                                    <h4 class="card-title">Joe Walsh</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description and button.
-                                    </p>
-                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="copyright_text">
+            <p>Copyright &copy; 2045 Woo Woo Analytics Inc. All rights reserved </p>
 
-                <!-- Team member -->
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <a href="BillWeld.html">
-                                        <p><img class=" img-fluid" src="images/Joe Weld.jpg" alt="card image"></p>
-                                    </a>
-                                    <h4 class="card-title">Bill Weld</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description and button.
-                                    </p>
-                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Team member -->
-
-
-
-
-            </div>
         </div>
-    </section>
+    </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="assets/js/jquery-min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="assets/js/selectnav.min.js"></script>
+    <script type="text/javascript">
+        selectnav('nav', {
+            label: '-Navigation-',
+            nested: true,
+            indent: '-'
+        });
+        selectnav('f_menu', {
+            label: '-Navigation-',
+            nested: true,
+            indent: '-'
+        });
+        $('.bxslider').bxSlider({
+            mode: 'fade',
+            captions: true
+        });
+    </script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-
 </body>
 
 </html>
-<!-- Team -->
